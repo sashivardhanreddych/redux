@@ -1,11 +1,13 @@
+// imports from external dependencies
 import React, { Component } from "react";
 import {connect} from 'react-redux';
 
 class Counter extends Component {
+    // Dispatch is used to update the data instantly for the increment counter
   increment = () => {
     this.props.dispatch({type:"INCREMENT"})
   };
-
+    // Dispatch is used to update the data instantly for the increment counter
   decrement = () => {
     this.props.dispatch({type:"DECREMENT"})
   };
