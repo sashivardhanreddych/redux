@@ -1,6 +1,7 @@
 import './App.css';
 // import from npm 
 import React from 'react';
+// import store from './app/store'
 import {createStore} from 'redux';
 import { Provider } from 'react-redux';
 

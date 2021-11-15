@@ -23,6 +23,12 @@ class Counter extends Component {
           </div>
           <div className="btn_con">
             <button onClick={this.increment}>+</button>
+          </div><br/>
+          <div>
+            <input type="number" min="0" max="100"/>
+        </div>
+          <div className="btn_down_con">
+            <button onClick={this.incrementByAmount}>Add</button>
           </div>
         </div>
       </div>
