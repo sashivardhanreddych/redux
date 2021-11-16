@@ -32,13 +32,13 @@ class Counter extends Component {
       <div className = "container">
         <h2>Counter</h2>
         <div class="block_con">
-          <div className="btn_con">
+          <div className="block_con">
             <button onClick={this.decrement}>-</button>
           </div>
-          <div className="display_con">
+          <div className="block_con">
             <span>{this.props.count}</span>
           </div>
-          <div className="btn_con">
+          <div className="block_con">
             <button onClick={this.increment}>+</button>
           </div><br/>
           <div class="input_con">
